@@ -1,0 +1,101 @@
+*, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: url(./assets/fundo.jpg) no-repeat;
+    background-size: cover;
+}
+
+.container {
+    width: 728px;
+    display: flex;
+    margin: 0 auto;
+    padding-top: 300px;
+    flex-direction: column;
+    align-items: center;   
+}
+
+.blockTextarea {
+    width: 100%;
+}
+
+textarea {
+    width: 100%;
+    font-size: 24px;
+    height: 300px;
+    border-radius: 5px;
+    border: 3px solid #FF5722;
+    background: transparent;
+    color: #FF5722;
+}
+
+textarea:focus, input:focus, select:focus {
+    box-shadow: 0 0 0 0;
+    border: 1px solid #FF5722;
+    outline: 0;
+} 
+
+#blockKeyboard {
+    width: 100%;
+}
+
+.button-key {
+    width: 46.5px;
+    height: 45px;
+    font-size:16px;
+    font-weight: 600;
+    border: 2px solid #ff5722;
+    background: transparent;
+    color: #fff;
+    border-radius: 5px;
+    margin-left: 2px;
+    margin-top: 2px;
+
+}
+
+.button-key:hover {
+    color: #fff;
+    border-radius: 5px;
+    border: 2px solid #4169e1d4;
+    
+}
+
+.button-key:focus, input:focus, select:focus {
+    box-shadow: 0 0 0 0;
+    border: 1px solid #4169e1d4;
+    outline: 0;
+} 
+
+
+
+.button-key.Backspace {
+    width: 94px;
+}
+
+.button-key.CapsLock {
+    width: 100px;
+}
+
+.button-key.Enter {
+    width: 90px;
+}
+
+.button-key.ShiftLeft, .ShiftRight {
+    width: 95px;
+}
+
+.button-key.Space {
+    width: 338px;
+    color: transparent;
+}
+
+p {
+    padding: 15px;
+    color: #fff;
+    font-size: 24px;
+}
+
